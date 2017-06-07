@@ -1,7 +1,7 @@
 .cell-wrapper {
   display: flex;
-  width: 10vw;
-  height: 10vw;
+  width: 9vw;
+  height: 9vw;
   max-width: 50px;
   max-height: 50px;
   background-color: #fff;

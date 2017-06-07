@@ -5,16 +5,16 @@ $selector-hover-color: #f4cb42;
 .selector-wrapper {
   position: fixed;
   top: 0;
-  width: 15vw;
+  width: 20vw;
   height: 100vh;
   background-color: $selector-background-color;
   border-left: 2vw solid $selector-left-border-color;
+  border-right: 0px;
   -webkit-transition: right 0.3s;
   transition: right 0.3s;
 
   .selector-cell {
   	display: flex;
-    width: 13vw;
     height: 10vh;
     cursor: pointer;
     justify-content: center;
@@ -42,9 +42,9 @@ $selector-hover-color: #f4cb42;
 }
 
 .selector-hidden {
-  right: -17vw;
+  right: -22vw;
 }
 
 .selector-show {
-  right: -2vw;
+  right: 0vw;
 }
