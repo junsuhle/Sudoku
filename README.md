@@ -49,3 +49,10 @@ The text that shows the status of the board.
 
 ### gameActions
 * Contains APIs related to other UI controls of Sudoku. Right now, it only controls hiding/showing the selector component.
+
+## Self-reflection 
+* The structure of actions API and reducers is slightly vague. Considering gameActions only has one API related to selector UI controls, it could be named more properly. 
+* CSS Style could be definitely improved (the color of components, etc)
+* Very satisfied with the decision to support key board input for the web users, since the selector UI is very convenient for the mobile users, but it doesn't help the web users' productivities. 
+* Satisfied with the automatic board saving feature. The users can come back and continue to solve the board.
+
