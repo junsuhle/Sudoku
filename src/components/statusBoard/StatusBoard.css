@@ -1,0 +1,12 @@
+.status-wrapper {
+  font-size: 4vw;
+  width: 100vw; }
+  .status-wrapper h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+    text-align: center; }
+  .status-wrapper .solved {
+    background-color: #008e17; }
+  .status-wrapper .unsolved {
+    background-color: #bc3232; }

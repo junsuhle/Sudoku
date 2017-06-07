@@ -1,0 +1,22 @@
+$solved-text-color: #008e17;
+$unsolved-text-color: #bc3232;
+$text-color: #fff;
+
+.status-wrapper {
+  font-size: 4vw;
+  width: 100vw;
+
+  h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: $text-color;
+    text-align: center;
+  }
+
+  .solved {
+    background-color: $solved-text-color;
+  }
+  .unsolved {
+    background-color: $unsolved-text-color;
+  }
+}

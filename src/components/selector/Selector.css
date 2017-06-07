@@ -1,0 +1,31 @@
+.selector-wrapper {
+  position: fixed;
+  top: 0;
+  width: 15vw;
+  height: 100vh;
+  background-color: #fff;
+  border-left: 2vw solid #666;
+  -webkit-transition: right 0.3s;
+  transition: right 0.3s; }
+  .selector-wrapper .selector-cell {
+    display: flex;
+    width: 13vw;
+    height: 10vh;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; }
+    .selector-wrapper .selector-cell:hover {
+      background-color: #f4cb42; }
+    .selector-wrapper .selector-cell h1 {
+      font-size: 3vw;
+      font-weight: 100; }
+
+@media (min-width: 748px) {
+  .selector-wrapper .selector-cell h1 {
+    font-size: 28px; } }
+
+.selector-hidden {
+  right: -17vw; }
+
+.selector-show {
+  right: -2vw; }
